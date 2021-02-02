@@ -1,0 +1,32 @@
+.menu__link {
+  margin-right: 18px;
+  font-size: 16px;
+  line-height: 112%;
+  box-sizing: border-box;
+}
+
+.menu__link:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 425px) {
+  .menu__link {
+    font-size: 24px;
+    padding-bottom: 32px;
+    margin: 0;
+ }
+ .menu__link:last-child {
+    padding-bottom: 0;
+}
+}
+
+@media (max-width: 320px) {
+  .menu__link {
+    font-size: 24px;
+    padding-bottom: 32px;
+    margin: 0;
+ }
+ .menu__link:last-child {
+    padding-bottom: 0;
+}
+}

@@ -1,0 +1,7 @@
+.lead__image {
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
+  height: auto;
+  box-sizing: border-box;
+}

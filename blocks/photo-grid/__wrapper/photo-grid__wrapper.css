@@ -1,0 +1,20 @@
+.photo-grid__wrapper {
+  display: block;
+  padding: 92px 48px 0px;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: 425px) {
+  .photo-grid__wrapper {
+    padding: 92px 24px 0px;
+}
+}
+
+@media (max-width: 320px) {
+  .photo-grid__wrapper {
+    padding: 64px 16px 0 16px;
+}
+}
+

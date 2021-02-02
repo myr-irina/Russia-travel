@@ -1,0 +1,42 @@
+.lead__title {
+  max-width: 720px;
+  font-size: 96px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 0 32px 0;
+  line-height: 1.04;
+  box-sizing: border-box;
+}
+
+@media (max-width: 720px) { 
+  .lead__title {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 425px) { 
+  .lead__title {
+    font-size: 45px;
+    margin: 0 0 16px 0;
+  }
+}
+
+
+@media (max-width: 320px) { 
+  .lead__title {
+    font-size: 40px;
+  }
+}
+
+
+@media (max-width: 320px) { 
+  .lead__title {
+    line-height: calc(44/40);
+  }
+}
+
+@media (max-width: 320px) { 
+  .lead__title {
+    margin: 0 0 16px 0;
+  }
+}

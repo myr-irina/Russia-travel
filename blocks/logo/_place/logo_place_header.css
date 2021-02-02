@@ -1,0 +1,12 @@
+.logo_place_header {
+    /* background-image: url(../../../images/sprint-3-images/header-logo.svg);
+  background-image: cover; */
+  max-width: 100%; 
+  height: auto;
+}
+
+@media (max-width: 320px) {
+  .logo_place_header {
+    width: 142px;
+}
+}
