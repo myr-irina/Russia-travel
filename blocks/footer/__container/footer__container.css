@@ -5,8 +5,8 @@
   box-sizing: border-box;
   /* min-width: 928px; */
   /* min-height: 18px; */
-  flex-wrap: wrap;
-  gap: 10px;
+  /* flex-wrap: wrap; */
+  /* gap: 10px; */
 }
 
 @media (max-width: 425px) {
