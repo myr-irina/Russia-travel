@@ -1,32 +1,21 @@
 .menu__link {
-  margin-right: 18px;
   font-size: 16px;
   line-height: 112%;
   box-sizing: border-box;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
 }
 
-.menu__link:last-child {
-  margin-right: 0;
-}
-
-@media (max-width: 425px) {
-  .menu__link {
-    font-size: 24px;
-    padding-bottom: 32px;
-    margin: 0;
- }
- .menu__link:last-child {
-    padding-bottom: 0;
-}
+.menu__link:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 320px) {
   .menu__link {
-    font-size: 24px;
-    padding-bottom: 32px;
-    margin: 0;
- }
- .menu__link:last-child {
-    padding-bottom: 0;
-}
+    font-size: 16px;
+    line-height: 100%;
+  }
 }

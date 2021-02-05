@@ -1,3 +1,4 @@
 .place__text {
   box-sizing: border-box;
+  margin: 0 var(--padding);
 }

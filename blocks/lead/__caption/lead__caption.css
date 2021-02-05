@@ -6,16 +6,13 @@
   box-sizing: border-box;
   padding: 8px 0 0 0;
   margin: 0;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
-  .lead__caption {
-      padding: 8px 0 0 24px;
-  }
-  }
+.lead__caption {
+  padding: 8px 0 0 24px;
+}
 
-  @media (max-width: 768px) {
-    .lead__caption {
-        padding: 8px 0 0 16px;
-    }
-    }
+}
+

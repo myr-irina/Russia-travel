@@ -1,12 +1,14 @@
 .intro__text {
-font-size: 16px;
-line-height: 163%;
-margin: 40px 0 33px;
-box-sizing: border-box;
+  max-width: 690px;
+  font-size: 16px;
+  line-height: 163%;
+  margin: 40px 0 33px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 320px) {
-  .intro__text {
-    margin: 40px 0 34px;
-  }
-  }
+.intro__text {
+  margin: 40px 0 34px;
+}
+
+}

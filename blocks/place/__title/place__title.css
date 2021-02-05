@@ -5,16 +5,19 @@
   line-height: 106%;
   margin: 0;
   box-sizing: border-box;
+  margin: 0 var(--padding);
 }
 
 @media (max-width: 768px) {
   .place__title {
     font-size: 42px;
-}
+    line-height: 110%;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .place__title {
     font-size: 32px;
-}
+    line-height: 109%;
+  }
 }

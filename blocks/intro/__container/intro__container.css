@@ -1,7 +1,26 @@
 .intro__container {
+  max-width: 984px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 92px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__container {
+    margin: 92px 48px 0;
+  }
+}
+
+@media (min-width: 1020px) and (max-width: 1060px) {
+  .intro__container {
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__container {
+    margin: 88px 24px 0;
+  }
 }

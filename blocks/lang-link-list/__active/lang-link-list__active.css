@@ -1,0 +1,7 @@
+.lang-link-list__active {
+  text-decoration: underline;
+}
+
+.lang-link-list__active:hover {
+  opacity: 0.8;
+}

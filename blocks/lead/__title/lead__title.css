@@ -3,40 +3,34 @@
   font-size: 96px;
   font-weight: 900;
   text-align: center;
-  margin: 0 0 32px 0;
+  margin: 56px 0 32px 0;
   line-height: 1.04;
   box-sizing: border-box;
 }
 
-@media (max-width: 720px) { 
+@media screen and (max-width: 1024px) {
   .lead__title {
-    font-size: 70px;
+    margin: 48px 0 32px 0;
   }
 }
 
-@media (max-width: 425px) { 
+@media (max-width: 730px) {
   .lead__title {
-    font-size: 45px;
-    margin: 0 0 16px 0;
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 730px) {
+  .lead__title {
+    font-size: 42px;
   }
 }
 
 
-@media (max-width: 320px) { 
+@media (max-width: 320px) {
   .lead__title {
     font-size: 40px;
-  }
-}
-
-
-@media (max-width: 320px) { 
-  .lead__title {
-    line-height: calc(44/40);
-  }
-}
-
-@media (max-width: 320px) { 
-  .lead__title {
-    margin: 0 0 16px 0;
+    line-height: 110%;
+    margin: 48px 0 16px 0;
   }
 }
