@@ -1,5 +1,37 @@
 .places {
   max-width: 984px;
   margin: 0 auto;
+  font-size: 18px;
+  line-height: 163%;
+  /* padding: 0 48px; */
 }
 
+@media (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 787px) {
+  .places {
+    max-width: 720px;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .places {
+    
+  }
+} */
+
+@media (max-width: 723px) {
+  .places {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places {
+    padding: 0;
+  }
+}

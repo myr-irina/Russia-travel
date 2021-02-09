@@ -1,4 +1,10 @@
 .place__text {
   box-sizing: border-box;
-  margin: 0 var(--padding);
+  /* margin: 0 var(--padding); */
+}
+
+@media screen and (max-width: 320px) {
+  .place__text {
+    padding: 0 16px;
+  }
 }

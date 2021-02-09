@@ -1,6 +1,6 @@
 .cover__subtitle {
   z-index: 1;
-  max-width: 360px;
+  width: 30.4054054%;
   text-align: center;
   font-size: 18px;
   line-height: 122%;
@@ -8,20 +8,27 @@
   margin: 0;
 }
 
-@media (max-width: 768px) {
-.cover__subtitle {
-  font-size: 18px;
+@media (max-width: 1024px) {
+  .cover__subtitle {
+    width: 35.15625%;
+  }
 }
+
+@media (max-width: 768px) {
+  .cover__subtitle {
+    width: 46.875%;
+  }
 }
 
 @media (max-width: 425px) {
-.cover__subtitle {
-  font-size: 14px;
-}
+  .cover__subtitle {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 320px) {
-.cover__subtitle {
-  margin: 0 16px 33px 16px;
-}
+  .cover__subtitle {
+    width: 288px;
+    margin: 0 16px 33px 16px;
+  }
 }

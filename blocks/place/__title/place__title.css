@@ -4,13 +4,15 @@
   font-size: 72px;
   line-height: 106%;
   box-sizing: border-box;
-  margin: 0 var(--padding);
+  margin: 0;
 }
 
 @media (max-width: 768px) {
   .place__title {
+    max-width: 340px;
     font-size: 42px;
     line-height: 110%;
+    white-space: pre-line;
   }
 }
 
@@ -18,5 +20,6 @@
   .place__title {
     font-size: 32px;
     line-height: 109%;
+    padding: 0 16px;
   }
 }

@@ -1,13 +1,11 @@
 .footer__author {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 114%;
   text-align: right;
   color: #ffffff;
   margin: 0;
   box-sizing: border-box;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 @media (max-width: 425px) {

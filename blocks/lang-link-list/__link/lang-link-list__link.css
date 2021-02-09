@@ -11,14 +11,10 @@
 .lang-link-list__link:hover {
   opacity: 0.8;
 }
-  
-@media screen and (max-width: 768px) {
-.lang-link-list__link {
-  font-size: 18px;
-  line-height: 111%;
-}
-}
 
- 
-  
-  
+@media screen and (max-width: 320px) {
+  .lang-link-list__link {
+    font-size: 18px;
+    line-height: 111%;
+  }
+}

@@ -9,8 +9,8 @@
   align-items: center;
   text-align: center;
   height: 740px;
-  max-width: 1184px;
-  margin: 0 auto;
+  width: 92.5%;
+  margin: 92px auto 0;
 }
 
 .cover__link::after {
@@ -34,18 +34,21 @@
 @media (max-width: 1024px) {
   .cover__link {
     height: 640px;
+    width: 100%;
   }
 }
 
-@media (max-width: 563px) {
+@media (max-width: 768px) {
   .cover__link {
-    /* max-width: 560px; */
+    max-height: 480px;
+    margin: 90px auto 0;
   }
 }
 
 @media (max-width: 320px) {
   .cover__link {
     max-width: 320px;
-    height: 320px;
+    height: 200px;
+    margin: 66px auto 0;
   }
 }

@@ -2,6 +2,7 @@
   max-width: 100%;
   height: auto;
   box-sizing: border-box;
+  opacity: 1;
 }
 
 .header__logo:hover {
@@ -9,13 +10,13 @@
 }
 
 @media (max-width: 425px) {
-.header__logo {
-  width: 150px;
-}
+  .header__logo {
+    width: 150px;
+  }
 }
 
 @media (max-width: 320px) {
-.header__logo {
-  width: 142px;
-}
+  .header__logo {
+    width: 142px;
+  }
 }
