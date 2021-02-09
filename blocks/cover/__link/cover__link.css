@@ -13,7 +13,7 @@
   margin: 92px auto 0;
 }
 
-.cover__link::after {
+.cover__link:after {
   position: absolute;
   content: "";
   display: block;
@@ -27,7 +27,7 @@
   transition: opacity 0.2s ease-in-out;
 }
 
-.cover__link:hover::after {
+.cover__link:hover:after {
   opacity: 0.8;
 }
 
