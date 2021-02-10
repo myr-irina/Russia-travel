@@ -42,6 +42,6 @@
     box-sizing: border-box;
     line-height: 109%;
     width: 288px;
-    margin: 33px 16px 16px;
+    margin: 33px auto 16px;
   }
 }
