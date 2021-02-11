@@ -9,7 +9,6 @@
 
 .place__paragraph:last-child {
   margin: 0;
-  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {

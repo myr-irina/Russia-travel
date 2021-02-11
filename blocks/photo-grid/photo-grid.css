@@ -13,7 +13,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 928px;
     gap: 14px;
-    box-sizing: border-box;
   }
 }
 
