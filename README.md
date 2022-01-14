@@ -10,6 +10,6 @@
 - для сетки с изображениями использовался flex-grid;
 - изображения в блоках place**image и cover**image при наведении мыши изменяются: становятся немного затемненными
 
-# Ссылка на проект
+# Ссылка на gh-pages
 
-https://myr-irina.github.io/project-work-3/
+https://myr-irina.github.io/Russia-travel/
